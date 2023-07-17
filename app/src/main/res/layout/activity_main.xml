@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:background="@color/bgColor"
+              android:padding="16dp"
+              tools:context=".MainActivity">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Date Difference Calculator"
+            android:textColor="@color/textColor"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Select Date"
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:background="@color/tintColor"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    <Button
+            android:id="@+id/btnDatePickerFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btnColor"
+            android:text="From"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"/>
+    <Button
+            android:id="@+id/btnDatePickerTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btnColor"
+            android:text="To"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    <TextView
+            android:id="@+id/tvSelectedDates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textColor="@color/numbersColor"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="Selected Dates"
+            android:textSize="18sp"/>
+    <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="Difference in seconds"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:id="@+id/secDiff"/>
+    <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="Difference in minutes"
+            android:textAlignment="center"
+            android:textSize="18sp" android:id="@+id/minDiff"/>
+    <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="Difference in hours"
+            android:textAlignment="center"
+            android:textSize="18sp" android:id="@+id/hourDiff"/>
+    <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="Difference in days"
+            android:textAlignment="center"
+            android:textSize="18sp" android:id="@+id/dayDiff"/>
+
+    <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Difference in weeks"
+            android:textSize="18sp" android:id="@+id/weeksDiff"/>
+    <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Difference in mounts"
+            android:textSize="18sp" android:id="@+id/mountsDiff"/>
+    <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:text="Difference in years"
+            android:textSize="18sp" android:id="@+id/yearsDiff"/>
+
+
+</LinearLayout>
