@@ -14,6 +14,8 @@ on new field
 As a result of my practice in Android developing i'm planning to create music player 
 
 --------------------
-![First img](/images/initialPhoto.png)
-![Second img](/images/selectDate.png)
-![Third img](/images/result.png)
+<p float="left">
+  <img src="/images/initialPhoto.png" width="30%"/>
+  <img src="/images/selectDate.png" width="30%" /> 
+  <img src="/images/result.png" width="30%" />
+</p>
